@@ -1,9 +1,11 @@
 // MPM: eventually, replace this with webpack-dev-server ?
 
 const express = require('express');
-const app = express();
 const volleyball = require('volleyball');
 const path = require('path');
+
+const app = express();
+const PORT = process.env.PORT || 8080;
 
 // logging middleware
 app.use(volleyball);
@@ -24,7 +26,6 @@ app.use(function (err, req, res, next) {
 });
 
 // start the server
-const PORT = process.env.PORT || 8080;
 app.listen(PORT, function (err) {
 	if (err) throw err;
 	console.log(`Listening patiently on port ${PORT}`);
