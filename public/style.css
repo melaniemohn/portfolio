@@ -16,9 +16,9 @@ body {
 }
 
 nav {
-	background: #A770EF;  /* fallback for old browsers */
-	background: -webkit-linear-gradient(to bottom, #A770EF, #CF8BF3, #FDB99B);  /* Chrome 10-25, Safari 5.1-6 */
-	background: linear-gradient(to bottom, #A770EF, #CF8BF3, #FDB99B); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+	background: #EBD4CB;  /* fallback for old browsers */
+	background: -webkit-linear-gradient(to bottom, #F5F749, #F6F5AE);  /* Chrome 10-25, Safari 5.1-6 */
+	background: linear-gradient(to bottom, #F5F749, #F6F5AE); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 	height: 60px;
 	position: sticky;
 	top: 0;
@@ -34,7 +34,7 @@ nav a {
 }
 
 nav a:hover {
-	text-decoration: underline wavy;
+	/*text-decoration: underline wavy;*/
 }
 
 h1 {
