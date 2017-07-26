@@ -2,15 +2,39 @@
 body {
   color: #333;
   font-family: 'Open Sans', sans-serif;
+  margin: 0;
+  padding: 0;
 }
 
-#container {
+.container {
 	width: 75%;
 	margin: 30px auto 50px;
 	float: none;
 	/* background-color: rgba(255, 255, 255, 0.65); */
 	padding: 20px;
 	/* border-radius: 5px; */
+}
+
+nav {
+	background: #A770EF;  /* fallback for old browsers */
+	background: -webkit-linear-gradient(to bottom, #A770EF, #CF8BF3, #FDB99B);  /* Chrome 10-25, Safari 5.1-6 */
+	background: linear-gradient(to bottom, #A770EF, #CF8BF3, #FDB99B); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+	height: 60px;
+	position: sticky;
+	top: 0;
+	width: 100%;
+}
+
+nav a {
+	color: #333;
+	float: right;
+	font-size: 20px;
+	margin: 0px;
+	padding: 10px 10px;
+}
+
+nav a:hover {
+	text-decoration: underline wavy;
 }
 
 h1 {
@@ -35,7 +59,6 @@ a {
 
 a:hover {
   color: #333;
-  text-decoration: none;
 }
 
 #icons {
