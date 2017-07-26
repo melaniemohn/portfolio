@@ -43,13 +43,32 @@ h1 {
 	font-weight: lighter;
 }
 
-.profile.image img {
+#sparkle-overlay {
+	position: relative;
+}
+
+#profile-image {
+	position: relative;
+}
+
+#profile-image img {
 	border-radius: 50%;
 	/*display: inline-block;*/
 	float: left;
 	margin: 20px;
+	position: relative;
 	vertical-align: middle;
 	height: 200px;
+}
+
+#sparkles {
+	position: absolute;
+	top: 40px;
+	left: 160px;
+}
+
+#sparkles img {
+	height: 25px;
 }
 
 a {
