@@ -2,6 +2,7 @@
 body {
   color: #333;
   font-family: 'Open Sans', sans-serif;
+  font-size: 20px;
   margin: 0;
   padding: 0;
 }
@@ -37,11 +38,15 @@ nav a:hover {
 	/*text-decoration: underline wavy;*/
 }
 
-h1 {
+h1, h2 {
 	font-family: 'Lora', serif;
 	font-size: 40px;
 	font-weight: lighter;
 }
+
+/*h2 {
+	font-size: 32px;
+}*/
 
 #sparkle-overlay {
 	position: relative;
@@ -76,7 +81,8 @@ mark {
 }
 
 a {
-  color: #888;
+  color: #832161;
+  font-weight: bold;
   text-decoration: none;
 }
 
@@ -85,7 +91,16 @@ a:hover {
 }
 
 #icons {
+	color: #888;
 	font-size: 40px;
+}
+
+#icons a {
+	color: #888;
+}
+
+#icons a:hover {
+	color: #832161;
 }
 
 /*.fa-twitter {
