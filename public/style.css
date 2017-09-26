@@ -34,10 +34,6 @@ nav a {
 	padding: 10px 10px;
 }
 
-nav a:hover {
-	/*text-decoration: underline wavy;*/
-}
-
 h1, h2 {
 	font-family: 'Lora', serif;
 	font-size: 40px;
@@ -80,14 +76,17 @@ mark {
 	background-color: #feff94;
 }
 
-a {
-  color: #832161;
-  font-weight: bold;
-  text-decoration: none;
+emphasis {
+	/*text-decoration: underline #888;*/
+	/*border-bottom: 2px solid #888;*/
+	text-shadow: 1px 1px #D1CCDC;
 }
 
-a:hover {
-  color: #333;
+a {
+	color: #832161;
+	font-weight: bold;
+  /*text-shadow: 1px 1px #D1CCDC;*/
+  text-decoration: none;
 }
 
 #icons {
@@ -110,6 +109,7 @@ a:hover {
 ::selection {
   background: #ffffcc; /* WebKit/Blink Browsers */
 }
+
 ::-moz-selection {
   background: #ffffcc; /* Gecko Browsers */
 }
