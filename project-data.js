@@ -1,3 +1,4 @@
+// MPM: make this file local? just needs to be imported into Projects component??
 
 // add images to each of these
 // also, certain projects, like align and times two, will have "watch it in action"... link to youtube?
@@ -26,9 +27,9 @@ const techtalk = {
 	name: 'Tech Talk'
 };
 
-const bitsbytes = {
-	name: 'Bits & Bytes'
-};
+// const bitsbytes = {
+// 	name: 'Bits & Bytes'
+// };
 
 // add contact info for icons, too?
 /*
