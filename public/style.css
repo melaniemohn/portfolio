@@ -130,10 +130,76 @@ a:hover {
 	color: #71709a;
 }
 
-::selection {
-  background: #ffffcc; /* WebKit/Blink Browsers */
+
+/* media queries for responsivity on smaller screens or mobile devices */
+
+/* xs */
+@media only screen
+and (max-width: 450px) {
+	nav {
+		height: 40px;
+	}
+
+	.nav-item {
+		font-size: 3.25vw;
+		margin: auto;
+	}
+
+	#about-me-container {
+		display: block;
+	}
+
+	#profile-image {
+		display: block;
+		height: 200px;
+	}
+
+	h1, h2 {
+		font-size: 16px;
+	}
+
+	body {
+		font-size: 14px;
+	}
+
 }
 
-::-moz-selection {
-  background: #ffffcc; /* Gecko Browsers */
+/* sm */
+@media only screen
+and (min-width: 450px)
+and (max-width: 600px) {
+	nav {
+		height: 40px;
+	}
+
+	.nav-item {
+		font-size: 3.25vw;
+		margin: auto;
+	}
+
+	h1, h2 {
+		font-size: 6vw;
+	}
+
+	body {
+		font-size: 3.25vw;
+	}
+
+	#profile-image {
+		height: 150px
+	}
 }
+
+/* med */
+/*@media only screen
+and (max-width: 750px) {
+	#about-me-container {
+		display: block;
+	}
+
+	#profile-image {
+		display: inline-block;
+		margin-top: 0px;
+	}
+}*/
+
