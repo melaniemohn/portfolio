@@ -38,38 +38,26 @@ h1, h2 {
 	font-family: 'Lora', serif;
 	font-size: 40px;
 	font-weight: lighter;
+	margin-bottom: 10px;
 }
 
 /*h2 {
 	font-size: 32px;
 }*/
 
-#sparkle-overlay {
-	position: relative;
+#about-me-container {
+	display: flex;
 }
 
 #profile-image {
-	position: relative;
-}
-
-#profile-image img {
 	border-radius: 50%;
-	/*display: inline-block;*/
+	display: inline-block;
 	float: left;
-	margin: 20px;
-	position: relative;
-	vertical-align: middle;
+	/*margin: 20px;*/
+	margin-right: 20px;
+	/*position: relative;*/
+	vertical-align: top;
 	height: 200px;
-}
-
-#sparkles {
-	position: absolute;
-	top: 40px;
-	left: 160px;
-}
-
-#sparkles img {
-	height: 25px;
 }
 
 mark {
@@ -83,10 +71,13 @@ emphasis {
 }
 
 a {
-	color: #832161;
+	color: #4B4A67;
 	font-weight: bold;
-  /*text-shadow: 1px 1px #D1CCDC;*/
   text-decoration: none;
+}
+
+a:hover {
+	text-decoration: underline;
 }
 
 #icons {
