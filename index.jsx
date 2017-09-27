@@ -13,10 +13,6 @@ import Projects from './pages/Projects';
 import Resume from './components/Resume';
 import NotFound from './pages/NotFound';
 
-// const App = ({ children }) => (
-// 	<Navbar />
-// );
-
 // add Google Analytics here, and include below between Navbar and Switch?
 
 const App = () =>
