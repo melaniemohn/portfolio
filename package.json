@@ -9,8 +9,9 @@
   "scripts": {
     "start": "node ./server/server.js",
     "dev": "webpack -w & nodemon ./server/server.js",
-    "build": "webpack", // MPM:  --config ./webpack.config.js ???
-    "postinstall": "npm run build",
+    "build": "webpack",
+    "prod": "NODE_ENV=production node server.js",
+    "postinstall": "webpack -p",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -32,12 +33,10 @@
     "volleyball": "^1.4.1"
   },
   "devDependencies": {
-    "babel": "^6.23.0",
     "babel-core": "^6.26.0",
     "babel-loader": "^7.1.2",
     "babel-preset-react": "^6.24.1",
     "nodemon": "^1.12.1",
-    "webpack": "^3.6.0",
-    "webpack-livereload-plugin": "^1.0.0"
+    "webpack": "^3.6.0"
   }
 }
