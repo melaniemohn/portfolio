@@ -3,6 +3,9 @@
   "version": "1.0.0",
   "description": "A personal website and portfolio.",
   "main": "index.js",
+  "engines": {
+    "node": ">= 7.0.0"
+  },
   "scripts": {
     "start": "node ./server/server.js",
     "dev": "webpack -w & nodemon ./server/server.js",
