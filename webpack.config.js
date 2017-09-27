@@ -1,7 +1,7 @@
 'use strict';
 
 module.exports = {
-	entry: './index.js', // MPM: change entry point / move to own directory?
+	entry: './main.jsx', // MPM: change entry point / move to own directory?
 	output: {
 		path: __dirname,
 		filename: './public/bundle.js'
