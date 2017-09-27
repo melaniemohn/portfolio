@@ -6,10 +6,11 @@ import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
 
 import Navbar from './components/Navbar';
 import Footer from './components/Footer';
-// import About from './components/About';
+import About from './components/About';
 // import Contact from './components/Contact';
 import Landing from './components/Landing';
 import Projects from './components/Projects';
+import Resume from './components/Resume';
 import NotFound from './components/NotFound';
 
 // const App = ({ children }) => (
@@ -32,7 +33,9 @@ const App = () =>
 			<Navbar />
 			<Switch>
 				<Route exact path="/" component={Landing} />
+				<Route path="/about" component={About} />
         <Route path="/projects" component={Projects} />
+        <Route path="/resume" component={Resume} />
         <Route component={NotFound} />
 			</Switch>
 			<Footer />
