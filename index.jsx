@@ -7,7 +7,7 @@ import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
 import Navbar from './components/Navbar';
 import Footer from './components/Footer';
 import About from './components/About';
-// import Contact from './components/Contact';
+import Contact from './components/Contact';
 import Landing from './components/Landing';
 import Projects from './components/Projects';
 import Resume from './components/Resume';
@@ -34,6 +34,7 @@ const App = () =>
 			<Switch>
 				<Route exact path="/" component={Landing} />
 				<Route path="/about" component={About} />
+				<Route path="/contact" component={Contact} />
         <Route path="/projects" component={Projects} />
         <Route path="/resume" component={Resume} />
         <Route component={NotFound} />
