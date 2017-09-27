@@ -10,7 +10,7 @@ import Footer from './components/Footer';
 // import Contact from './components/Contact';
 import Landing from './components/Landing';
 import Projects from './components/Projects';
-// import NotFound from './components/NotFound';
+import NotFound from './components/NotFound';
 
 // const App = ({ children }) => (
 // 	<Navbar />
@@ -25,6 +25,7 @@ import Projects from './components/Projects';
 */
 
 // wrap function body in parens?
+// wrap Switch in... Main?? idk
 const App = () =>
 	<Router>
 		<div>
@@ -32,6 +33,7 @@ const App = () =>
 			<Switch>
 				<Route exact path="/" component={Landing} />
         <Route path="/projects" component={Projects} />
+        <Route component={NotFound} />
 			</Switch>
 			<Footer />
 		</div>

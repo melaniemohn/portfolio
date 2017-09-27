@@ -2,18 +2,11 @@ body {
   color: #333;
   font-family: 'Lato', sans-serif;
   font-size: 18px;
-  margin: 0px;
-  padding: 0px;
-}
-
-/* MPM: is 'main' redundant?? add to container? */
-.main {
-	width: 80%;
+  width: 80%;
 	max-width: 960px;
-	margin: 60px 60px 0px 60px;
-	/* background-color: rgba(255, 255, 255, 0.65); */
-	padding: 20px;
-	position: relative;
+	margin: 60px auto 0px;
+  padding: 20px;
+  /*position: relative;*/
 }
 
 nav {
