@@ -1,23 +1,35 @@
 'use strict';
 
+const LiveReloadPlugin = require('webpack-livereload-plugin')
+    , devMode = require('.').isDevelopment
+    , USE_FAST_SOURCE_MAPS = false
+
 module.exports = {
-	entry: './index.jsx', // MPM: change entry point / move to own directory?
-	output: {
-		path: __dirname,
-		filename: './public/bundle.js'
-	},
-	devtool: 'source-map',
-	resolve: {
-		extensions: ['.js', '.jsx', '.json', '*']
-	},
-	module: {
-		rules: [{
-			test: /\.jsx?$/,
-			exclude: /(node_modules)/,
-			loader: 'babel-loader',
-			options: {
-				presets: ['react']
-			} // MPM: do 'loader' and 'options' need to be in 'use' ??
-		}]
-	}
+  entry: './app/main.jsx',
+  output: {
+    path: __dirname,
+    filename: './public/bundle.js'
+  },
+  context: __dirname,
+  devtool: devMode && USE_FAST_SOURCE_MAPS
+    ? 'cheap-module-eval-source-map'
+    : 'source-map',
+  resolve: {
+    extensions: ['.js', '.jsx', '.json', '*']
+  },
+  module: {
+    rules: [{
+      test: /jsx?$/,
+      exclude: /(node_modules|bower_components)/,
+      use: [{
+        loader: 'babel-loader',
+        options: {
+          presets: ['react', 'es2015'] // MPM: removed 'stage-2'
+        }
+      }]
+    }]
+  },
+  plugins: devMode
+    ? [new LiveReloadPlugin({appendScriptTag: true})]
+    : []
 };
