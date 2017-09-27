@@ -103,16 +103,16 @@ a:hover {
 	text-decoration: underline;
 }
 
-#icons {
+.icons {
 	color: #888;
 	font-size: 40px;
 }
 
-#icons a {
+.icons a {
 	color: #888;
 }
 
-#icons a:hover {
+.icons a:hover {
 	color: #93B7BE;
 }
 
@@ -168,7 +168,7 @@ and (max-width: 450px) {
 		font-size: 18px;
 	}
 
-	#icons {
+	.icons {
 		text-align: center;
 	}
 }

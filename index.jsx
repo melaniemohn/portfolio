@@ -1,24 +1,36 @@
 'use strict';
 
 import React from 'react';
-// import ReactDOM from 'react-dom';
 import { render } from 'react-dom';
-import { BrowserRouter, Route, Switch } from 'react-router-dom';
+import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
 
 import Navbar from './components/Navbar';
+import Footer from './components/Footer';
+import About from './components/About';
+import Contact from './components/Contact';
+import Landing from './components/Landing';
+import Projects from './components/Projects';
+import NotFound from './components/NotFound';
 
-const App = ({ children }) => (
-	<Navbar />
-);
+// const App = ({ children }) => (
+// 	<Navbar />
+// );
 
+// add Google Analytics here, and include below between Navbar and Switch?
 
-// or move BrowserRouter into App and then just render App???
-// eventually replace index route / App with Landing component?
-render(
-	<BrowserRouter>
-		<Switch>
-			<Route exact path="/" component={App} />
-		</Switch>
-	</BrowserRouter>,
-	document.getElementById('app')
-);
+// wrap function body in parens?
+const App = () =>
+	<Router>
+		<div>
+			<Navbar />
+			<Switch>
+				<Route exact path="/" component={Landing} />
+        <Route path="/about" component={About} />
+        <Route path="/contact" component={Contact} />
+        <Route path="/projects" component={Projects} />
+        <Route component={NotFound} />
+			</Switch>
+		</div>
+	</Router>
+
+render(<App />, document.getElementById('app'));
