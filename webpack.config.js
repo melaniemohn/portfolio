@@ -4,7 +4,7 @@ module.exports = {
 	entry: './index.js', // MPM: change entry point / move to own directory?
 	output: {
 		path: __dirname,
-		filename: './bundle.js'
+		filename: './public/bundle.js'
 	},
 	devtool: 'source-map',
 	resolve: {
