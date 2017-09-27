@@ -121,26 +121,44 @@ a:hover {
 }
 
 .form-container {
-	padding: 10px;
-	display: block;
+	padding: 10px auto;
+	width: 100%;
+	max-width: 560px;
 }
 
 form label {
+	padding-top: 10px;
 	display: block;
+	font-family: 'Lora';
 }
 
-form input {
-	width: 100%
+/*.form-half-width {
+	width: 45%;
+	display: inline-block;
+	margin: auto;
 }
 
-.form-small {
-	width: 35%;
+.form-full-width {
+	width: 90%;
+}*/
+
+.form-half-width, .form-full-width {
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+
+form input, textarea {
+	width: 100%;
 	padding: 10px;
+	font-size: inherit;
+	text-align: start;
 }
 
-.form-med {
-	width: 80%;
-	padding: 10px;
+/*.input-small {
+	width: 95%;
+}*/
+
+.input-med {
 	height: 6em;
 }
 
@@ -149,6 +167,7 @@ form input {
 	height: 100vh;
 	padding: 0px;
 }
+
 
 /* media queries for responsivity on smaller screens or mobile devices */
 
