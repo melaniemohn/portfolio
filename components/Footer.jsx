@@ -10,13 +10,15 @@ const Mail = {url: 'mailto:melaniemohn@gmail.com?Subject=Hello', icon: 'fa fa-en
 const Social = [Twitter, GitHub, LinkedIn, Mail];
 
 const Footer = () =>
-	<div>
+	<div className="footer-container">
 		<div className="icons">
 			{Social.map((network) =>
-          <Link to={network.url} key={network}>{network.icon}</Link>
-       )}
+					<Link to={network.url} key={network}>
+						<i className={network.icon}></i>
+					</Link>
+			)}
 		</div>
-		<div className="footer-container">
+		<div>
 			<footer>
 				<p>made with ♡ by Melanie Mohn, © 2017</p>
 			</footer>
