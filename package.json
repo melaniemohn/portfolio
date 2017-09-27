@@ -10,6 +10,7 @@
     "start": "node ./server/server.js",
     "dev": "webpack -w & nodemon ./server/server.js",
     "build": "webpack",
+    "postinstall": "npm run build",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
