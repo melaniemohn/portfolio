@@ -18,6 +18,12 @@ import NotFound from './components/NotFound';
 
 // add Google Analytics here, and include below between Navbar and Switch?
 
+/*
+        <Route path="/about" component={About} />
+        <Route path="/contact" component={Contact} />
+        <Route component={NotFound} />
+*/
+
 // wrap function body in parens?
 const App = () =>
 	<Router>
@@ -25,11 +31,9 @@ const App = () =>
 			<Navbar />
 			<Switch>
 				<Route exact path="/" component={Landing} />
-        <Route path="/about" component={About} />
-        <Route path="/contact" component={Contact} />
         <Route path="/projects" component={Projects} />
-        <Route component={NotFound} />
 			</Switch>
+			<Footer />
 		</div>
 	</Router>
 

@@ -6,6 +6,7 @@ body {
   padding: 0px;
 }
 
+/* MPM: is 'main' redundant?? add to container? */
 .main {
 	width: 80%;
 	max-width: 960px;
