@@ -10,9 +10,8 @@
     "start": "node ./server/server.js",
     "dev": "webpack -w & nodemon ./server/server.js",
     "build": "webpack",
-    "validate": "check-node-version --node '>= 7.0.0'",
     "setup": "./bin/setup",
-    "prep": "npm run validate && npm run setup",
+    "prep": "npm run setup",
     "postinstall": "npm run prep",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
