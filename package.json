@@ -29,13 +29,13 @@
     "react-dom": "^16.0.0",
     "react-router": "^4.2.0",
     "react-router-dom": "^4.2.2",
-    "volleyball": "^1.4.1"
+    "volleyball": "^1.4.1",
+    "webpack": "^3.6.0"
   },
   "devDependencies": {
     "babel-core": "^6.26.0",
     "babel-loader": "^7.1.2",
     "babel-preset-react": "^6.24.1",
-    "nodemon": "^1.12.1",
-    "webpack": "^3.6.0"
+    "nodemon": "^1.12.1"
   }
 }
