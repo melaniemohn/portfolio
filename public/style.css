@@ -217,6 +217,11 @@ and (max-width: 450px) {
 	.icons {
 		text-align: center;
 	}
+
+	.resume {
+		width: 110%;
+		padding: 0px;
+	}
 }
 
 /* sm */
@@ -242,6 +247,11 @@ and (max-width: 600px) {
 
 	#profile-image {
 		height: 150px
+	}
+
+	.resume {
+		width: 110%;
+		padding: 0px;
 	}
 }
 
