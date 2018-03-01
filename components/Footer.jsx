@@ -20,7 +20,7 @@ const Footer = () =>
 		</div>
 		<div>
 			<footer>
-				<p>made with ♡ by Melanie Mohn, © 2017</p>
+				<p>Melanie Mohn<br/>© 2018</p>
 			</footer>
 		</div>
 	</div>
