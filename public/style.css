@@ -1,11 +1,11 @@
 body {
-  color: #333;
-  font-family: 'Lato', sans-serif;
-  font-size: 18px;
-  width: 80%;
+	color: #333;
+	font-family: 'Lato', sans-serif;
+	font-size: 18px;
+	width: 80%;
 	max-width: 960px;
 	margin: 60px auto 0px;
-  padding: 20px;
+	padding: 20px;
 }
 
 nav {
@@ -90,27 +90,50 @@ emphasis {
 
 a {
 	color: #4B4A67;
-	font-weight: bolder;
-  text-decoration: none;
+	font-weight: bold;
+	text-decoration: none;
+
+	/*for fade effect on hover*/
+	-o-transition:.5s;
+	-ms-transition:.5s;
+	-moz-transition:.5s;
+	-webkit-transition:.5s;
+	transition:.5s;
 }
 
-a:hover {
+/*a:hover {
 	text-decoration: underline;
-}
-
-.icons {
-	color: #888;
-	font-size: 40px;
-	text-align: right;
-}
+}*/
 
 .icons a {
 	color: #888;
-	padding-right: 10px;
+	font-size: 40px;
+	padding-left: 10px;
 }
 
-.icons a:hover {
-	color: #93B7BE;
+.fa {
+	/*for fade effect on hover*/
+	-o-transition:.5s;
+	-ms-transition:.5s;
+	-moz-transition:.5s;
+	-webkit-transition:.5s;
+	transition:.5s;
+}
+
+.fa-twitter-square:hover {
+	color: #55acee;
+}
+
+.fa-github:hover {
+	color: #333;
+}
+
+.fa-linkedin-square:hover {
+	color: #0976b4;
+}
+
+.fa-envelope-square:hover {
+	color: #dd4b39;
 }
 
 .footer-container {
@@ -142,7 +165,7 @@ form label {
 
 .form-full-width {
 	width: 90%;
-}*/
+	}*/
 
 .form-half-width, .form-full-width {
 	margin-top: 10px;
@@ -255,4 +278,3 @@ and (max-width: 600px) {
 		padding: 0px;
 	}
 }
-

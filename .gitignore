@@ -1,6 +1,7 @@
 node_modules
 npm-debug.log
 bundle.js
+icons.js
 snippets.js
 snippets.html
 .DS_Store
