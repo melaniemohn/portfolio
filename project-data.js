@@ -33,4 +33,4 @@ const techtalk = {
 
 const projects = [align, timestwo, techtalk, bitsbytes];
 
-module.exports = {socialIcons, projects};
+module.exports = {projects};
