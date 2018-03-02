@@ -6,7 +6,6 @@ body {
 	max-width: 960px;
 	margin: 60px auto 0px;
   padding: 20px;
-  /*position: relative;*/
 }
 
 nav {
@@ -40,7 +39,6 @@ nav {
 
 nav a {
 	color: #efebf7;
-	/*font-weight: normal;*/
 	/*font-family: 'Lora', serif;*/
 	font-family: 'Shrikhand', sans-serif;
 	font-weight: bolder;
@@ -49,7 +47,6 @@ nav a {
 
 nav a:hover {
 	text-decoration: none;
-	/*color: white;*/
 	/*color: #62929E;*/
 	color: #93B7BE;
 }
@@ -65,19 +62,19 @@ h1, h2 {
 }
 
 #about-me-container {
-	display: flex;
+	display: grid;
+	grid-template-columns: 6;
+	grid-gap: 20px;
 }
 
 #profile-image {
 	border-radius: 50%;
-	display: inline-block;
-	float: left;
-	/*margin: 20px;*/
-	margin-top: 20px;
-	margin-right: 20px;
-	/*position: relative;*/
-	vertical-align: top;
 	height: 200px;
+	grid-column: 1;
+}
+
+#about-me-summary {
+	grid-column: 2 / 6;
 }
 
 mark {
