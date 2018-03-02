@@ -6,9 +6,9 @@ const Footer = () =>
 	<div className="footer-container">
 		<div className="icons">
 			{Icons.map((icon) =>
-					<Link to={icon.url} key={icon}>
+					<a href={icon.url} key={icon.id}>
 						<i className={icon.icon} />
-					</Link>
+					</a>
 			)}
 		</div>
 		<div>
