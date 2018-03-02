@@ -6,7 +6,6 @@ body {
 	max-width: 960px;
 	margin: 60px auto 0px;
   padding: 20px;
-  /*position: relative;*/
 }
 
 nav {
@@ -32,7 +31,7 @@ nav {
 .nav-item {
 	display: block;
 	float: right;
-	font-size: 20px;
+	font-size: 25px;
 	margin: 0px;
 	padding-left: 10px;
 	padding-right: 10px;
@@ -40,40 +39,42 @@ nav {
 
 nav a {
 	color: #efebf7;
-	font-weight: normal;
-	font-family: 'Lora', serif;
+	/*font-family: 'Lora', serif;*/
+	font-family: 'Shrikhand', sans-serif;
+	font-weight: bolder;
 	text-shadow: 1px 1px black;
 }
 
 nav a:hover {
 	text-decoration: none;
-	/*color: white;*/
 	/*color: #62929E;*/
 	color: #93B7BE;
 }
 
 h1, h2 {
-	font-family: 'Lora', serif;
-	font-size: 36px;
+	/*font-family: 'Lora', serif;*/
+	font-family: 'Shrikhand', sans-serif;
+	font-weight: bolder;
+	font-size: 40px;
 	font-weight: lighter;
 	margin-bottom: 10px;
 	margin-top: 10px;
 }
 
 #about-me-container {
-	display: flex;
+	display: grid;
+	grid-template-columns: 6;
+	grid-gap: 20px;
 }
 
 #profile-image {
 	border-radius: 50%;
-	display: inline-block;
-	float: left;
-	/*margin: 20px;*/
-	margin-top: 20px;
-	margin-right: 20px;
-	/*position: relative;*/
-	vertical-align: top;
 	height: 200px;
+	grid-column: 1;
+}
+
+#about-me-summary {
+	grid-column: 2 / 6;
 }
 
 mark {
@@ -83,7 +84,7 @@ mark {
 emphasis {
 	/*text-decoration: underline #888;*/
 	/*border-bottom: 2px solid #888;*/
-	text-shadow: 1px 1px #D1CCDC;
+	text-shadow: 2px 2px #D1CCDC;
 	font-weight: bold;
 }
 
