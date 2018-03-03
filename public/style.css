@@ -12,6 +12,7 @@ nav {
 	background: #4B4A67;
 	background-image: url("images/marbled-gradient.jpg");
 	background-size: 100%;
+	font-size: 25px;
 
 	border: 0px;
 	height: 60px;
@@ -29,26 +30,28 @@ nav {
 }
 
 .nav-item {
-	display: block;
+	display: inline;
 	float: right;
-	font-size: 25px;
-	margin: 0px;
-	padding-left: 10px;
-	padding-right: 10px;
 }
 
 nav a {
 	color: #efebf7;
 	/*font-family: 'Lora', serif;*/
+	/*font-weight: bolder;*/
 	font-family: 'Shrikhand', sans-serif;
-	font-weight: bolder;
+	/*font-size: 25px;*/
 	text-shadow: 1px 1px black;
+	margin: 0px;
+	padding-left: 10px;
+	padding-right: 10px;
 }
 
 nav a:hover {
-	text-decoration: none;
-	/*color: #62929E;*/
 	color: #93B7BE;
+	font-size: 26px;
+	padding-left: 8px;
+	padding-right: 8px;
+	text-decoration: none;
 }
 
 h1, h2 {
@@ -82,8 +85,6 @@ mark {
 }
 
 emphasis {
-	/*text-decoration: underline #888;*/
-	/*border-bottom: 2px solid #888;*/
 	text-shadow: 2px 2px #D1CCDC;
 	font-weight: bold;
 }
@@ -101,9 +102,11 @@ a {
 	transition:.5s;
 }
 
-/*a:hover {
-	text-decoration: underline;
-}*/
+p a:hover {
+	/*text-decoration: underline;*/
+	border-bottom: 2px solid #888;
+	background-color: #efebf7;
+}
 
 .icons a {
 	color: #888;
@@ -165,7 +168,7 @@ form label {
 
 .form-full-width {
 	width: 90%;
-	}*/
+}*/
 
 .form-half-width, .form-full-width {
 	margin-top: 10px;
