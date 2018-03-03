@@ -204,17 +204,21 @@ form input, textarea {
 @media only screen
 and (max-width: 450px) {
 	nav {
-		height: 40px;
-		position: absolute;
+		height: 45px;
+		background-size: auto;
 	}
 
 	.nav-list {
 		padding: 0px;
+		/*display: inline;*/
 	}
 
 	.nav-item {
+		/*display: inline;*/
 		font-size: 4vw;
-		margin: auto;
+		margin-left: 5px;
+    margin-right: 5px;
+		padding: 0px;
 	}
 
 	#about-me-container {
