@@ -1,5 +1,4 @@
-// MPM: add angellist icon and link to icon list?
-// make this into a json file and just export the object? or easier to have as an array?
+// TODO: add angellist icon
 
 const GitHub = {id: 'github', url: 'https://github.com/melaniemohn', icon: 'fa fa-github', style: {color: '#333'}};
 const Twitter = {id: 'twitter', url: 'https://www.twitter.com/melaniemohn', icon: 'fa fa-twitter-square', style: {color: '#55acee'}};

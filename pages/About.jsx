@@ -1,6 +1,8 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 
+// MPM TODO: add a list of skills etc. plus a link to download resume
+
 export default function About() {
 	return (
 		<div>
