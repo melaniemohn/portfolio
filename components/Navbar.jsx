@@ -1,6 +1,8 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 
+// TODO: add an index route to navbar [left icon]
+
 export default function Navbar() {
 	return (
 		<nav>
