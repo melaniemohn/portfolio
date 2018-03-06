@@ -59,7 +59,14 @@ h1, h2 {
 	font-family: 'Shrikhand', sans-serif;
 	font-weight: bolder;
 	font-size: 40px;
-	font-weight: lighter;
+	/*font-weight: lighter;*/
+	margin-bottom: 10px;
+	margin-top: 10px;
+}
+
+h3 {
+	font-family: 'Shrikhand', sans-serif;
+	font-size: 26px;
 	margin-bottom: 10px;
 	margin-top: 10px;
 }
@@ -201,6 +208,12 @@ form input, textarea {
 	padding: 0px;
 }
 
+.skills-list-header {
+	margin-bottom: 5px;
+}
+.skills-list {
+	margin-top: 5px;
+}
 
 /* media queries for responsivity on smaller screens or mobile devices */
 

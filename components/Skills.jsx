@@ -6,11 +6,11 @@ import React from 'react';
 export default function Skills() {
 	return (
 		<div className="skills-container">
-			<h2>Skills</h2>
-			<p>My focus has been writing JavaScript across the stack. My priorities are clean and performant code, but I also love to experiment. I'm always eager to try new flavors of JavaScript (read: front-end frameworks), but I'm also eager to learn new back-end languages, too.</p>
+			<h3>skills</h3>
+			<p>Recently, my focus has been on JavaScript across the stack. It's my priority to write clean and performant code, but I also love to experiment. I'm always eager to try new flavors of JavaScript (read: front-end frameworks), but I'm also eager to learn new back-end languages, too.</p>
 
-			<h3>Front-end tools</h3>
-			<ul className = "skills-list">
+			<h4 className="skills-list-header">Front-end tools:</h4>
+			<ul className="skills-list">
 				<li>JavaScript</li>
 				<li>HTML5</li>
 				<li>CSS3</li>
@@ -18,8 +18,8 @@ export default function Skills() {
 				<li>jQuery</li>
 			</ul>
 
-			<h3>Libraries and frameworks</h3>
-			<ul className = "skills-list">
+			<h4 className="skills-list-header">Libraries and frameworks:</h4>
+			<ul className="skills-list">
 				<li>React</li>
 				<li>Redux</li>
 				<li>D3.js</li>
@@ -27,8 +27,8 @@ export default function Skills() {
 				<li>Material UI</li>
 			</ul>
 
-			<h3>Back-end</h3>
-			<ul className = "skills-list">
+			<h4 className="skills-list-header">Back-end:</h4>
+			<ul className="skills-list">
 				<li>Node.js</li>
 				<li>Express</li>
 				<li>SQL (MySQL, PostgreSQL)</li>
@@ -38,8 +38,8 @@ export default function Skills() {
 				<li>Java</li>
 			</ul>
 
-			<h3>Development practices</h3>
-			<ul className = "skills-list">
+			<h4 className="skills-list-header">Development practices:</h4>
+			<ul className="skills-list">
 				<li>Git</li>
 				<li>Jira</li>
 				<li>Agile</li>
