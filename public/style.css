@@ -208,11 +208,29 @@ form input, textarea {
 	padding: 0px;
 }
 
+.skills-list-container {
+	display: grid;
+	grid-template-columns: 2;
+	grid-gap: 20px;
+}
+
 .skills-list-header {
 	margin-bottom: 5px;
 }
 .skills-list {
 	margin-top: 5px;
+}
+
+.skills-list li {
+	display: block;
+}
+
+.skills-list li:before {
+	font-family: 'FontAwesome';
+	content: '\f105';
+	margin: 0 10px 0 -15px;
+	/*color: #71709a;*/
+	color: #93B7BE;
 }
 
 /* media queries for responsivity on smaller screens or mobile devices */
