@@ -5,7 +5,7 @@ const Landing = () =>
 	<div>
 		<h1>Hello, world. <emphasis>I'm Melanie.</emphasis></h1>
 		<div id="about-me-container">
-			<img id="profile-image" src="images/headshot-crop.jpg" alt="This is me!" />
+			<img id="profile-image" src="images/square-crop.jpg" alt="This is me!" />
 			<div id="about-me-summary">
 				<p>I’m a Brooklyn-based software engineer and recent graduate of the <a href="https://www.gracehopper.com/">Grace Hopper Program</a>.</p>
 				<p>Before learning to code, I wrote literary criticism and taught English at <a href="https://www.princeton.edu/">Princeton</a>. The common theme? I’ve been plagued by syntax errors for the better part of a decade.</p>
