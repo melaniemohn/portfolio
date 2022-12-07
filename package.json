@@ -24,7 +24,7 @@
   },
   "homepage": "https://github.com/melaniemohn/portfolio#readme",
   "dependencies": {
-    "express": "^4.15.3",
+    "express": "^4.17.3",
     "react": "^16.0.0",
     "react-dom": "^16.0.0",
     "react-router": "^4.2.0",
